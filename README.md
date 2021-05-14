@@ -26,4 +26,4 @@ Enter url: url-of-video-or-playlist
 To get more info, checo out my
 Youtube: [Click here](https://www.youtube.com/channel/UCggZvARaczWC4wc4E6f330w)\
 Instagram; [Click here](http://instagram.com/itsallaboutpython)\
-Blog-site: [Click here](http://itsallaboutpython.blogspot.com/)\
+Blog-site: [Click here](http://itsallaboutpython.blogspot.com/)
