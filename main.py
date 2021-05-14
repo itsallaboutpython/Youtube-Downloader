@@ -30,7 +30,7 @@ def download_song(download_type):
     folder = input("Enter file download location: ")
     if download_type == NAME:
         name = input("Enter song name: ")
-        query = name + " song youtube"
+        query = name + " youtube"
         url = ''
         for j in search(query, tld="co.in", num=10, stop=1, pause=2):
             url = j
