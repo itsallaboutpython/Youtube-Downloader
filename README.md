@@ -23,7 +23,10 @@ python main.py -u
 Enter file download location: path-where-you-want-to-download-file
 Enter url: url-of-video-or-playlist
 ```
-To get more info, checo out my
-Youtube: [Click here](https://www.youtube.com/channel/UCggZvARaczWC4wc4E6f330w)\
-Instagram; [Click here](http://instagram.com/itsallaboutpython)\
+To know how the script works, check out my blog:
+[Click here](https://itsallaboutpython.blogspot.com/2021/05/download-any-youtube-video-using-this.html)
+
+To get more info, check out my
+Youtube: [Click here](https://www.youtube.com/channel/UCggZvARaczWC4wc4E6f330w)
+Instagram; [Click here](http://instagram.com/itsallaboutpython)
 Blog-site: [Click here](http://itsallaboutpython.blogspot.com/)
