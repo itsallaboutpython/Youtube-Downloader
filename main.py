@@ -54,6 +54,7 @@ def download_song(download_type):
 def main():
     global download_type
     global NAME
+    print(welcome_message())
     # Checking command line parameters
     if not sys.argv[1]:
         usage()
