@@ -59,7 +59,7 @@ if __name__ == "__main__":
     path = input("Enter path where you want to save video (press enter to save at default 'video' folder): ")
     if path == '':
         path = "video"
-    if not os.path.exists(path):
+    elif not os.path.exists(path):
         print('[ERROR] Invalid path {0}...try again'.format(path))
         exit(0)
     url = input('Enter URL (For multiple urls, separate them by commas): ')
