@@ -58,8 +58,10 @@ if __name__ == "__main__":
     path = ''
     path = input("Enter path where you want to save video (press enter to save at default 'video' folder): ")
     if path == '':
-        path = "video"
-    elif not os.path.exists(path):
+        if not os.path.exists("video"):
+            os.mkdir("video")
+        path = os.path.join(os.getcwd(), 'video')
+    if not os.path.exists(path):
         print('[ERROR] Invalid path {0}...try again'.format(path))
         exit(0)
     url = input('Enter URL (For multiple urls, separate them by commas): ')
@@ -74,6 +76,12 @@ if __name__ == "__main__":
                 download(url, path, False)
             else:
                 print("[ERROR] Invalid choice {0}".format(choice))
+        elif LIST in url:
+            print("[INFO] Downloading youtube playlist.")
+            download(url, path)
+        elif WATCH in url:
+            print("[INFO] Downloading youtube video.")
+            download(url, path)
         elif "," in url:
             print("[INFO] Downloading all youtube videos.")
             download_list(url.split(","), path)
