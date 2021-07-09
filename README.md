@@ -1,5 +1,7 @@
 # Youtube-Downloader
 ## Download Youtube Videos Using this Script
+### Youtube Video 
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/8I-G4faWWrk/0.jpg)](https://www.youtube.com/watch?v=8I-G4faWWrk)
 ### Installation
 Open terminal and type the following
 ```
